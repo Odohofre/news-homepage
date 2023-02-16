@@ -9,9 +9,9 @@ function News({ title, content }) {
 
 export default function Aside() {
   return (
-    <aside className="bg-neutral-blue-700 px-6 py-5 text-justify">
+    <aside className="bg-neutral-blue-700 px-6 py-6 text-justify">
       <h2 className="text-3xl text-primary-soft-orange font-bold mb-6">New</h2>
-      <div className="space-y-7">
+      <div className="space-y-8">
         <News
           title="Hydrogen VS Electric Cars"
           content="Will hydrogen-fueled cars ever catch up to EVs?"
