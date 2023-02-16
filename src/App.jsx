@@ -1,5 +1,13 @@
+import Attribute from "./components/Attribute";
+import Layout from "./components/Layout";
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Layout />
+      <Attribute />
+    </>
+  );
 }
 
 export default App;

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  width: 100%;
+  background-color:  #fffdfa;
+  color: #c5c6ce;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 30px 16px 40px;
+}

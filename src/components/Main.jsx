@@ -34,7 +34,7 @@ export default function Main() {
             really fulfilling its promise?
           </p>
           <button
-            className="bg-primary-soft-red text-base text-off-white font-bold px-10 py-3 tracking-widest mt-7"
+            className="bg-primary-soft-red text-base text-off-white font-bold px-10 py-3 tracking-[.15em] mt-7"
             type="submit"
           >
             READ MORE
