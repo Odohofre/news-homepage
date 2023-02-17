@@ -22,7 +22,7 @@ export default function Main() {
         </picture>
       </section>
       <section className="mt-5">
-        <h1 className="text-neutral-blue-700 text-5xl font-bold">
+        <h1 className="text-neutral-blue-700 text-4xl font-bold">
           The Bright Future of Web 3.0?
         </h1>
         <div>
