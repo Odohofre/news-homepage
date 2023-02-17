@@ -11,7 +11,6 @@ export default function Main() {
             height={300}
             className="md:hidden"
             alt="lego bricks"
-            loading="lazy"
           />
           <img
             src={desktopWeb3Image}
@@ -19,7 +18,6 @@ export default function Main() {
             // height={}
             className="hidden md:block"
             alt="lego bricks"
-            loading="lazy"
           />
         </picture>
       </section>
