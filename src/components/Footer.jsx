@@ -3,7 +3,7 @@ import { gamingImage, pcImage, laptopImage } from "../imageList";
 function FooterNews({ title, subtitle, contents, imgSrc }) {
   return (
     <article className="flex space-x-6">
-      <img src={imgSrc} width={112} alt="" />
+      <img src={imgSrc} width={110} alt="" />
       <div className="flex flex-col justify-between">
         <h2 className="font-bold text-4xl">{title}</h2>
         <h3 className="text-lg font-extrabold text-neutral-blue-700">
