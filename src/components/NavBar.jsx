@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Fragment } from "react";
 import { logo, close, open } from "../imageList";
 
 export default function NavBar() {
@@ -27,7 +27,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <>
+    <Fragment className="col-span-3 row-span-1">
       <nav className="flex max-w-6xl items-center justify-between text-lg font-bold pb-6 md:p-0">
         <div className="flex items-center flex-shrink-0">
           <a href="#">
@@ -64,7 +64,7 @@ export default function NavBar() {
 
         <div className="block md:hidden">
           <button
-            className={`flex items-center fixed top-7 right-0 z-50 py-2 ${
+            className={`flex items-center absolute top-7 right-0 z-50 py-2 ${
               isOpen ? "px-6" : "px-4"
             }`}
             onClick={() => setOpen(!isOpen)}
@@ -110,6 +110,6 @@ export default function NavBar() {
           } w-full h-screen bg-neutral-blue-700/50 fixed top-0 right-0 inset-y-0 left-0`}
         ></div>
       </nav>
-    </>
+    </Fragment>
   );
 }
