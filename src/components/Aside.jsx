@@ -9,7 +9,7 @@ function News({ title, content }) {
 
 export default function Aside() {
   return (
-    <aside className="bg-neutral-blue-700 px-6 py-6 text-justify max-w-[343px]">
+    <aside className="bg-neutral-blue-700 px-6 py-6 text-justify max-w-[343px max-h-fit col-span-1 row-span-2">
       <h2 className="text-3xl text-primary-soft-orange font-bold mb-6">New</h2>
       <div className="space-y-8">
         <News

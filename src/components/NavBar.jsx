@@ -27,8 +27,8 @@ export default function NavBar() {
   }, []);
 
   return (
-    <Fragment className="col-span-3 row-span-1">
-      <nav className="flex max-w-6xl items-center justify-between text-lg font-bold pb-6 md:p-0">
+    <header className="col-span-3 row-span-1">
+      <nav className="flex md:w-full items-center justify-between text-lg font-bold pb-6 md:p-0">
         <div className="flex items-center flex-shrink-0">
           <a href="#">
             <img className="w-16" src={logo} alt="Brand Logo" />
@@ -37,22 +37,22 @@ export default function NavBar() {
 
         {/* DESKTOP NAV */}
         <div
-          className={`hidden md:flex md:items-center w-full text-neutral-blue-300 md:w-auto `}
+          className={`hidden md:flex md:items-center md:justify-between w-full text-neutral-blue-300 md:w-auto `}
         >
-          <div className="text-sm">
-            <a href="#" className="block mt-4 md:inline md:mt-0 mr-6">
+          <div className="text-sm space-x-8">
+            <a href="#" className="block mt-4 md:inline md:mt-0">
               Home
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 mr-6">
+            <a href="#" className="block mt-4 md:inline md:mt-0">
               New
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 mr-6">
+            <a href="#" className="block mt-4 md:inline md:mt-0">
               Popular
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 mr-6">
+            <a href="#" className="block mt-4 md:inline md:mt-0">
               Trending
             </a>
 
@@ -110,6 +110,6 @@ export default function NavBar() {
           } w-full h-screen bg-neutral-blue-700/50 fixed top-0 right-0 inset-y-0 left-0`}
         ></div>
       </nav>
-    </Fragment>
+    </header>
   );
 }

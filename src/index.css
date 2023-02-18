@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   width: 100%;
-  background-color:  #fffdfa;
-  font-family: 'Inter';
+  background-color: #fffdfa;
+  font-family: "Inter";
   color: #c5c6ce;
   font-weight: 400;
   font-size: 15px;
   padding: 30px 16px 40px;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    padding: 80px 160px 40px;
+  }
 }
