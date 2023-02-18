@@ -12,7 +12,7 @@ export default function NavBar() {
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
-      setOpen(false);
+      handleLinkClick();
     }
   };
 
@@ -85,7 +85,6 @@ export default function NavBar() {
           className={`${
             isOpen ? "block" : "hidden"
           } bg-off-white fixed top-0 right-0 h-screen w-2/3 z-40`}
-          ref={menuRef}
         >
           <div className="mt-36 pl-6 text-neutral-blue-700 space-y-6">
             <a href="#" className="block" onClick={handleLinkClick}>
