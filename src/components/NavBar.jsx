@@ -17,11 +17,9 @@ export default function NavBar() {
   };
 
   useEffect(() => {
-    // document.addEventListener("mousedown", handleClickOutside);
     document.addEventListener("touchstart", handleClickOutside);
 
     return () => {
-      // document.removeEventListener("mousedown", handleClickOutside);
       document.removeEventListener("touchstart", handleClickOutside);
     };
   }, []);
@@ -40,23 +38,38 @@ export default function NavBar() {
           className={`hidden md:flex md:items-center md:justify-between w-full text-neutral-blue-300 md:w-auto `}
         >
           <div className="text-sm space-x-8">
-            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
+            <a
+              href="#"
+              className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red"
+            >
               Home
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
+            <a
+              href="#"
+              className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red"
+            >
               New
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
+            <a
+              href="#"
+              className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red"
+            >
               Popular
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
+            <a
+              href="#"
+              className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red"
+            >
               Trending
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
+            <a
+              href="#"
+              className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red"
+            >
               Categories
             </a>
           </div>
