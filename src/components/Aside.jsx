@@ -1,7 +1,9 @@
 function News({ title, content }) {
   return (
     <div className="space-y-2">
-      <h3 className="text-xl font-bold text-off-white">{title}</h3>
+      <h3 className="text-xl font-bold text-off-white hover:text-primary-soft-orange cursor-pointer">
+        {title}
+      </h3>
       <p>{content}</p>
     </div>
   );
@@ -9,7 +11,7 @@ function News({ title, content }) {
 
 export default function Aside() {
   return (
-    <aside className="bg-neutral-blue-700 px-6 py-6 text-justify max-w-[343px max-h-fit col-span-1 row-span-2">
+    <aside className="bg-neutral-blue-700 px-6 py-6 text-justify max-w-md max-h-fit col-span-1 row-span-2">
       <h2 className="text-3xl text-primary-soft-orange font-bold mb-6">New</h2>
       <div className="space-y-8">
         <News

@@ -9,7 +9,7 @@ function FooterNews({ title, subtitle, contents, imgSrc }) {
 
       <div className="flex flex-col justify-between md:space-y-2 h-full">
         <h2 className="font-bold text-4xl">{title}</h2>
-        <h3 className="text-lg font-extrabold text-neutral-blue-700">
+        <h3 className="text-lg font-extrabold text-neutral-blue-700 cursor-pointer hover:text-primary-soft-red">
           {subtitle}
         </h3>
         <p className="text-neutral-blue-300">{contents}</p>

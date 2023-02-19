@@ -40,23 +40,23 @@ export default function NavBar() {
           className={`hidden md:flex md:items-center md:justify-between w-full text-neutral-blue-300 md:w-auto `}
         >
           <div className="text-sm space-x-8">
-            <a href="#" className="block mt-4 md:inline md:mt-0">
+            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
               Home
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0">
+            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
               New
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0">
+            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
               Popular
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0">
+            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
               Trending
             </a>
 
-            <a href="#" className="block mt-4 md:inline md:mt-0">
+            <a href="#" className="block mt-4 md:inline md:mt-0 hover:text-primary-soft-red">
               Categories
             </a>
           </div>
